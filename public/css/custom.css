@@ -1,0 +1,21 @@
+/* 强制导航栏纯黑背景 */
+#nav {
+  background: #000000 !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+}
+
+/* 强制页脚纯黑背景 */
+#footer {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+.post-card {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: 0.9s ease;
+}
+.post-card.in-view {
+  opacity: 1;
+  transform: translateX(0);
+}
